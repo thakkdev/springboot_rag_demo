@@ -1,4 +1,4 @@
-The ChatController class is a RESTful controller that initializes a chatClient with a QuestionAnswerAdvisor. It has an endpoint at / that prompts the user for a question, makes a call, and returns the response. The constructor accepts ChatClient.Builder and PgVectorStore for initialization.
+The ChatController class is a RESTful controller that initializes a chatClient with a QuestionAnswerAdvisor. It has an endpoint that prompts the user for a question, makes a call, and returns the response. The constructor accepts ChatClient.Builder and PgVectorStore for initialization.
 
 
 
